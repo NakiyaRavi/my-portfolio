@@ -8,7 +8,7 @@ import { Directive, ElementRef, HostBinding, Input, AfterViewInit } from '@angul
   styleUrl: './about.css'
 })
 export class About {
-  image = 'assets/angularport.png';
+  image = 'assets/images/myphoto2.jpg';
 
 
   @HostBinding('class.show') isVisible = false;
