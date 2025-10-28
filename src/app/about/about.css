@@ -89,6 +89,14 @@
   box-shadow: 0 0 30px rgba(25, 186, 255, 0.753);
 }
 
+.photo-note {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 16px;
+  color: #39485c;
+  font-style: italic;
+}
+
 /* Fade-in Animations */
 .fade-in-left,
 .fade-in-right {

@@ -3,3 +3,5 @@
 - [x] Add 'lineCross' animation trigger in footer.ts
 - [x] Add line element in footer.html with [@lineCross]
 - [x] Style the line-cross class in footer.css
+- [x] Add a note/caption below the photo in about.html
+- [x] Style the photo note in about.css
