@@ -1,0 +1,33 @@
+.not-found-container {
+  text-align: center;
+  padding-top: 10%;
+  color: #444;
+  font-family: Arial, sans-serif;
+  margin:100px 0px 300px;
+}
+
+.not-found-container h1 {
+  font-size: 100px;
+  color: #ff4d4d;
+  margin: 0;
+}
+
+.not-found-container p {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.home-btn {
+  text-decoration: none;
+  background: #1e293b;
+  
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.home-btn:hover {
+ background: #007bff;
+ box-shadow: 0 0 30px rgba(25, 186, 255, 0.753);
+}

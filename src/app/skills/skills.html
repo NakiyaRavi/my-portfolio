@@ -1,0 +1,11 @@
+<section class="skills-section">
+  <h2>My Skills</h2>
+  <div class="skills-container">
+    <div class="skill" *ngFor="let skill of skills; let i = index" [style.animationDelay]="(i * 0.2)+'s'">
+      <h3>{{ skill.name }}</h3>
+      <div class="progress-bar">
+        <div class="progress" [style.--progress]="skill.level + '%'"></div>
+      </div>
+    </div>
+  </div>
+</section>

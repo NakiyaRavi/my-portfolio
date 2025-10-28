@@ -1,0 +1,5 @@
+- [x] Add provideAnimations() to app.config.ts providers
+- [x] Define @fadeInUp animation in footer.ts
+- [x] Add 'lineCross' animation trigger in footer.ts
+- [x] Add line element in footer.html with [@lineCross]
+- [x] Style the line-cross class in footer.css

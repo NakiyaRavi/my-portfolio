@@ -1,0 +1,19 @@
+<!-- Navbar -->
+<nav>
+  <div class="logo">Ravi Dev.</div>
+
+  <ul class="nav-links" [class.show]="menuOpen">
+    <li><a routerLink="/home" routerLinkActive="active">Home</a></li>
+    <li><a routerLink="/about" routerLinkActive="active">About</a></li>
+    <li><a routerLink="/skills" routerLinkActive="active">Skills</a></li>
+    <li><a routerLink="/projects" routerLinkActive="active">Projects</a></li>
+    <li><a routerLink="/contact" routerLinkActive="active">Contact</a></li>
+  </ul>
+  <div class="hamburger" (click)="toggleMenu()">
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+</nav>
+
+  <!-- End Navbar -->
