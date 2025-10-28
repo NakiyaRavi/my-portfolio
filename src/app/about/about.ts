@@ -8,6 +8,9 @@ import { Directive, ElementRef, HostBinding, Input, AfterViewInit } from '@angul
   styleUrl: './about.css'
 })
 export class About {
+  image = 'assets/angularport.png';
+
+
   @HostBinding('class.show') isVisible = false;
 
   @Input('appFadeInOnScroll') direction: 'left' | 'right' = 'left';
