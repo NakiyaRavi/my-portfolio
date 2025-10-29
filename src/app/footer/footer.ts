@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+    import { Component } from '@angular/core';
 import { trigger, transition, style, animate } from '@angular/animations';
 
 @Component({
@@ -23,9 +23,8 @@ import { trigger, transition, style, animate } from '@angular/animations';
 })
 export class Footer {
 
-   iconsinstagram = '/icons-instagram.png';
-   iconsfacebook = '/icons-facebook.png';
-   iconslinkedin = '/icons-linkedin.png';
-   iconswhatsapp = '/icons-whatsapp.png';
-
+   iconsinstagram = 'assets/icons-instagram.png';
+   iconsfacebook = 'assets/icons-facebook.png';
+   iconslinkedin = 'assets/icons-linkedin.png';
+   iconswhatsapp = 'assets/icons-whatsapp.png';
 }
