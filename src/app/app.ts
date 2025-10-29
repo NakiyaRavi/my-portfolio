@@ -1,5 +1,5 @@
-import { Component, signal } from '@angular/core';
-import { RouterLink, RouterOutlet } from '@angular/router';
+import { Component} from '@angular/core';
+import { RouterOutlet } from '@angular/router';
 import { Header } from './header/header';
 import { CommonModule } from '@angular/common';
 import { Footer } from "./footer/footer";
