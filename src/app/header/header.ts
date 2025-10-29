@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { HostListener, OnInit } from '@angular/core';
 import { RouterLink, RouterLinkActive } from '@angular/router';
 
 @Component({

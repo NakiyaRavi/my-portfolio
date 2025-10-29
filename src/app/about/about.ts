@@ -9,7 +9,7 @@ import { Directive, ElementRef, HostBinding, Input, AfterViewInit } from '@angul
 })
 export class About {
   image = 'assets/images/myphoto2.jpg';
-
+  iconswhatsapp = 'assets/icons-whatsapp.png';
 
   @HostBinding('class.show') isVisible = false;
 
