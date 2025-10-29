@@ -1,7 +1,2 @@
-- [x] Add provideAnimations() to app.config.ts providers
-- [x] Define @fadeInUp animation in footer.ts
-- [x] Add 'lineCross' animation trigger in footer.ts
-- [x] Add line element in footer.html with [@lineCross]
-- [x] Style the line-cross class in footer.css
-- [x] Add a note/caption below the photo in about.html
-- [x] Style the photo note in about.css
+- [x] Update footer.ts with correct absolute paths for social icons (e.g., '/icons-facebook.png') and fix iconsinstagram path
+- [x] Run ng serve to verify resources load without 404 errors
