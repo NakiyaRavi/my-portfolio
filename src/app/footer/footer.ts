@@ -23,7 +23,7 @@ import { trigger, transition, style, animate } from '@angular/animations';
 })
 export class Footer {
 
-   iconsinstagram = 'assets/icons-instagram.png';
+   iconsinstagram = 'assets/images/myphoto2.jpg';
    iconsfacebook = 'assets/icons-facebook.png';
    iconslinkedin = 'assets/icons-linkedin.png';
    iconswhatsapp = 'assets/icons-whatsapp.png';
